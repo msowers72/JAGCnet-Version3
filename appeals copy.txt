@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Gp Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Updated: Jun 14 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <!-- Nav wrapper -->
+  <div class="nav-container">
+    <nav>
+      <ul class="mobile-nav">
+        <li>
+          <div class="menu-icon-container">
+            <div class="menu-icon">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </div>
+        </li>
+        <li class="new-mobile-logo">
+          <a href="./index.html" class="link-logo" target="_blank">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+          </a>
+          <p class="">JAG Corps</p>
+        </li>
+        <!-- <li>
+            <a href="#" class="link-bag"></a>
+          </li> -->
+      </ul>
+      <ul class="desktop-nav">
+        <li>
+          <a href="./index.html" class="link-logo" target="_blank">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="tab-search" id="tab-search">ACCA</a>
+        </li>
+        <li>
+          <a href="#" class="second-search">Opinions</a>
+        </li>
+        <li>
+          <a href="#" class="third-search">Other Appellate Courts</a>
+        </li>
+        <li>
+          <a href="#" class="fourth-search">Resources</a>
+        </li>
+        <li>
+          <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/upcominghearings" target="_blank">Hearing Calendar</a>
+        </li>
+        <li>
+          <a href="https://www.jagcnet.army.mil/ACCALibrary/cases?categoryKey=pending" target="_blank">Appellate
+            Library</a>
+        </li>
+
+
+        <li>
+          <a href="#" class="link-search"></a>
+        </li>
+
+        <!-- <li>
+                      <a href="#" class="link-bag"></a>
+                  </li> -->
+      </ul>
+      <!-- page nav menu -->
+
+    </nav> <!-- End of navigation items -->
+
+    <!-- Search bar code -->
+    <div class="search-container hide">
+      <div class="link-search"></div>
+
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <div class="link-close"></div>
+      <div class="quick-links">
+        <!-- I added a logo here -->
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Quick Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="https://tjaglcs.army.mil/" target="_blank">Legal Center and School</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/Advocacy.nsf" target="_blank">Advocacy Center</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ppto" target="_blank">Personnel</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/CP56.nsf" target="_blank">CP-56</a>
+          </li>
+          <li>
+            <a href="https://www.army.mil/ostc" target="_blank">OSTC</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/help.xsp" target="_blank">Help</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Public Administrator Login</a>
+          </li>
+          <li>
+            <a href="#">Login to JAGCNet</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- Search bar code first link -->
+    <div class="search-container first-link hide" id="first-link">
+      <div class="link-search"></div>
+      <div class="tab-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <div class="firstLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>ACCA Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/acca.nsf/C1A77A9FB2B764DA8525856F006849AA/$FILE/ACCA%20R.%2035%20(Interim)%20(19%20May%202020).doc.pdf"
+              target="_blank">Rules of the Court - Rule 35 (interim 19 May 2020)</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/2D75C9BE986E0DD885257B4300516990/$FILE/ACCA%20Rules%2020190115.pdf"
+              target="_blank">Rules of the Court - Effective 15 January 2019</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/2D75C9BE986E0DD885257B4300516990/$FILE/ACCA%20Rules%2020180601.pdf"
+              target="_blank">Rules of the Court - Effective 1 June 2018</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/419D161BF775C46985257B4300518A1D/$FILE/ACCA%20Bar%20Admissions.pdf"
+              target="_blank">Bar Admission</a>
+          </li>
+
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/0966CD5135CA002785257B430051E7DB/$FILE/Notice%20of%20Appearance.pdf"
+              target="_blank">Notice of Appearance</a>
+          </li>
+
+
+          <li>
+            <a
+              href="https://www.jagcnet.army.mil/sites/acca.nsf/0EC84A8BB0228E7E85257B430052014A/$FILE/ACCA%20Citation%20Guide.pdf">Army
+              Court Citation Guide</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=D851EE1F7930583585257B43005231B0"
+              target="_blank">History of the Court</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=9FB06303763F8D9A85257B430052AA36"
+              target="_blank">Request Records</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=5D43DA05091A516B85257B43005496C2"
+              target="_blank">Reading Room</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=22563C2CF5F522C885257B4300524AB4"
+              target="_blank">Contact Us</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- Search bar code second link -->
+    <div class="search-container second-link hide" id="second-link">
+      <div class="link-search"></div>
+      <div class="second-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="secondLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Opinion Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/MO" target="_blank">Memorandum Opinion</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/OC" target="_blank">Opinion of the
+              Court</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/SF" target="_blank">Short Form
+              Affirmance</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/SD" target="_blank">Summary Disposition</a>
+          </li>
+
+
+        </ul>
+
+
+      </div>
+    </div>
+    <!-- Search bar code third link -->
+    <div class="search-container third-link hide" id="third-link">
+      <div class="link-search"></div>
+      <div class="third-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="thirdLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Other Appellate Court Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="https://www.supremecourt.gov/" target="_blank">U.S. Supreme Court</a>
+          </li>
+          <li>
+            <a href="https://www.armfor.uscourts.gov/newcaaf/home.htm" target="_blank">U.S. Court of Appeals for the
+              Armed Forces</a>
+          </li>
+          <li>
+            <a href="https://afcca.law.af.mil/" target="_blank">U.S. Air Force Court of Criminal Appeals</a>
+          </li>
+          <li>
+            <a href="https://www.uscg.mil/legal/cca/Court_of_Criminal_Appeals" target="_blank">U.S. Coast Guard Court of
+              Criminal Appeals</a>
+          </li>
+          <li>
+            <a href="https://www.jag.navy.mil/nmcca.htm" target="_blank">U.S. Navy-Marine Court of Criminal Appeals</a>
+          </li>
+
+
+
+
+
+
+
+        </ul>
+
+
+      </div>
+    </div>
+    <!-- Search bar code fourth link -->
+    <div class="search-container fourth-link hide" id="fourth-link">
+      <div class="link-search"></div>
+      <div class="fourth-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="fourthLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Resources</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACMPRS" target="_blank">ACMPRS</a>
+          </li>
+          <li>
+            <a href="https://armypubs.army.mil/" target="_blank">Army Publishing Directorate</a>
+          </li>
+          <li>
+            <a href="https://www.loc.gov/collections/military-legal-resources/?q=" target="blank">Library of Congress</a>
+          </li>
+          <li>
+            <a href="https://www.archives.gov/" target="_blank">National Archives</a>
+          </li>
+
+          <li>
+            <a href="https://www.usa.gov/" target="_blank">USA.gov</a>
+          </li>
+
+
+
+        </ul>
+
+
+      </div>
+    </div>
+    <!-- Search bar code five link -->
+    <div class="search-container five-link hide" id="five-link">
+      <div class="link-search"></div>
+      <div class="five-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="fiveLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Hearing Calendar</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="#">Administrative and Civil Law</a>
+          </li>
+          <li>
+            <a href="#">Claims</a>
+          </li>
+          <li>
+            <a href="#">Contract and Fiscal law</a>
+          </li>
+          <li>
+            <a href="#">National Security Law</a>
+          </li>
+          <li>
+            <a href="#">Legal Assistance</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/jagc.nsf/EE26CE7A9678A67A85257E1300563559/$File/CommandersLegalHandbook.pdf"
+              target="_blank">Commander's Legal Handbook</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/lawofficemanagement" target="_blank">Law Office Management</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/F3FBB5D831EAED2F8525855F006400F2/%24File/2019%20Advocacy%20Trainer.pdf"
+              target="_blank">Advocacy Trainer (PDF Manual only)</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/jagc.nsf/homeContent.xsp?documentId=7C4D0630163282308525855F00647525"
+              target="_blank">Advocacy Trainer (PDF Manual and Videos)</a>
+          </li>
+          <li>
+            <a href="#">Pub 1-1</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/homeContent.xsp?documentId=6448C92179F9C21C8525897C003AFC80"
+              target="_blank">RC PPTO Update</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+
+    <!-- Search bar code six link -->
+    <div class="search-container six-link hide" id="six-link">
+      <div class="link-search"></div>
+      <div class="six-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="sixLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>FOIA Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="#">ACCA Opinions</a>
+          </li>
+          <li>
+            <a href="#">Army Court-Martial Public Record System</a>
+          </li>
+          <li>
+            <a href="#">Army Settlements</a>
+          </li>
+          <li>
+            <a href="#">Bankruptcy Listings</a>
+          </li>
+          <li>
+            <a href="#">FOIA Contact Information</a>
+          </li>
+          <li>
+            <a href="#">Commander's Legal Handbook</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Search bar code seven link -->
+    <div class="search-container seven-link hide" id="seven-link">
+      <div class="link-search"></div>
+      <div class="seven-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="sevenLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Access Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="#">FOIA</a>
+          </li>
+          <li>
+            <a href="#">Request an Account</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Search bar code eight link -->
+    <div class="search-container eight-link hide" id="eight-link">
+      <div class="link-search"></div>
+      <div class="eight-search"></div>
+      <div class="search-bar active">
+        <form action="">
+          <input type="text" placeholder="Search Jagcnet">
+        </form>
+      </div>
+      <div class="eightLink-close"></div>
+      <div class="quick-links">
+        <!-- <div class="desktop-logo">
+            <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
+            <span class="jag-logo">JAG Corps</span>
+          </div> -->
+        <h2>Wellness Resource Links</h2>
+        <ul class="flex-links">
+          <li>
+            <a href="#">OCONUS Military Family Life Counseling (MFLC) POCs</a>
+          </li>
+          <li>
+            <a href="#">Military Crisis Line</a>
+          </li>
+          <li>
+            <a href="#">Army Suicide Prevention Program</a>
+          </li>
+          <li>
+            <a href="#">Suicide & Crisis Hotline</a>
+          </li>
+          <li>
+            <a href="#">Human Performance Resources (by CHAMP)</a>
+          </li>
+          <li>
+            <a href="#">Health & Wellness (Military OneSource)</a>
+          </li>
+          <li>
+            <a href="#">Mental Health Resources</a>
+          </li>
+          <li>
+            <a href="#">ABA Mental Health Resources</a>
+          </li>
+          <li>
+            <a href="#">Army Resilience Directorate</a>
+          </li>
+          <li>
+            <a href="#">Army Ready and Resilient (R2) Performance Centers</a>
+          </li>
+          <li>
+            <a href="#">Stress and Relaxation Drills</a>
+          </li>
+          <li>
+            <a href="#">Nutrition Tips</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- Mobile Verison -->
+    <div class="mobile-search-container">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li>
+            <a href="#">Legal Center and School</a>
+          </li>
+          <li>
+            <a href="#">Advocacy Center</a>
+          </li>
+          <li>
+            <a href="#">Personnel</a>
+          </li>
+          <li>
+            <a href="#">CP-56</a>
+          </li>
+          <li>
+            <a href="#">OSTC</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Public Administrator Login</a>
+          </li>
+          <li>
+            <a href="#">Login to JAGCNet</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- leadership Mobile Verison -->
+    <div class="firstmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>ACCA Links</h2>
+        <ul>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/acca.nsf/C1A77A9FB2B764DA8525856F006849AA/$FILE/ACCA%20R.%2035%20(Interim)%20(19%20May%202020).doc.pdf"
+              target="_blank">Rules of the Court - Rule 35 (interim 19 May 2020)</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/2D75C9BE986E0DD885257B4300516990/$FILE/ACCA%20Rules%2020190115.pdf"
+              target="_blank">Rules of the Court - Effective 15 January 2019</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/2D75C9BE986E0DD885257B4300516990/$FILE/ACCA%20Rules%2020180601.pdf"
+              target="_blank">Rules of the Court - Effective 1 June 2018</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/419D161BF775C46985257B4300518A1D/$FILE/ACCA%20Bar%20Admissions.pdf"
+              target="_blank">Bar Admission</a>
+          </li>
+
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/0966CD5135CA002785257B430051E7DB/$FILE/Notice%20of%20Appearance.pdf"
+              target="_blank">Notice of Appearance</a>
+          </li>
+
+
+          <li>
+            <a href="https://www.jagcnet.army.mil/sites/acca.nsf/0EC84A8BB0228E7E85257B430052014A/$FILE/ACCA%20Citation%20Guide.pdf"
+              target="_blank">Army
+              Court Citation Guide</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=D851EE1F7930583585257B43005231B0"
+              target="_blank">History of the Court</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=9FB06303763F8D9A85257B430052AA36"
+              target="_blank">Request Records</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=5D43DA05091A516B85257B43005496C2"
+              target="_blank">Reading Room</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/Sites/ACCA.nsf/homeContent.xsp?open&documentId=22563C2CF5F522C885257B4300524AB4"
+              target="_blank">Contact Us</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- Careers Mobile Verison -->
+    <div class="secondmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Opinions Links</h2>
+        <ul>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/MO" target="blank">Memorandum Opinion</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/OC" target="blank">Opinion of the Court</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/SF" target="_blank">Short Form
+              Affirmance</a>
+          </li>
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/SD" target="_blank">Summary Disposition</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- Legal Services Mobile Verison -->
+    <div class="thirdmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Other Appellate Courts</h2>
+      <ul >
+        <li>
+          <a href="https://www.supremecourt.gov/" target="_blank">U.S. Supreme Court</a>
+        </li>
+        <li>
+          <a href="https://www.armfor.uscourts.gov/newcaaf/home.htm" target="_blank">U.S. Court of Appeals for the
+            Armed Forces</a>
+        </li>
+        <li>
+          <a href="https://afcca.law.af.mil/" target="_blank">U.S. Air Force Court of Criminal Appeals</a>
+        </li>
+        <li>
+          <a href="https://www.uscg.mil/legal/cca/Court_of_Criminal_Appeals" target="_blank">U.S. Coast Guard Court of
+            Criminal Appeals</a>
+        </li>
+        <li>
+          <a href="https://www.jag.navy.mil/nmcca.htm" target="_blank">U.S. Navy-Marine Court of Criminal Appeals</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <!-- Courts Mobile Verison -->
+    <div class="fourthmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Resources</h2>
+        <ul >
+          <li>
+            <a href="https://www.jagcnet.army.mil/ACMPRS" target="_blank">ACMPRS</a>
+          </li>
+          <li>
+            <a href="https://armypubs.army.mil/" target="_blank">Army Publishing Directorate</a>
+          </li>
+          <li>
+            <a href="https://www.loc.gov/collections/military-legal-resources/?q=" target="_blank">Library of Congress</a>
+          </li>
+          <li>
+            <a href="https://www.archives.gov/" target="_blank">National Archives</a>
+          </li>
+        
+          <li>
+            <a href="https://www.usa.gov/" target="_blank">USA.gov</a>
+          </li>
+        
+        
+        
+        </ul>
+      </div>
+    </div>
+
+    <!-- Public Docs Mobile Verison -->
+    <div class="fivemobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Public Doc Links</h2>
+        <ul>
+          <li>
+            <a href="#">Administrative and Civil Law</a>
+          </li>
+          <li>
+            <a href="#">Claims</a>
+          </li>
+          <li>
+            <a href="#">National Security Law</a>
+          </li>
+          <li>
+            <a href="#">Legal Assistance</a>
+          </li>
+          <li>
+            <a href="#">Commander's Legal Handbook</a>
+          </li>
+          <li>
+            <a href="#">Law Office Management</a>
+          </li>
+          <li>
+            <a href="#">Advocacy Trainer (PDF Manual only)</a>
+          </li>
+          <li>
+            <a href="#">Advocacy Trainer (PDF Manual and Videos)</a>
+          </li>
+          <li>
+            <a href="#">Pub 1-1</a>
+          </li>
+          <li>
+            <a href="#">RC PPTO Update</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FOIA Mobile Verison -->
+    <div class="sixmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>FOIA Links</h2>
+        <ul>
+          <li>
+            <a href="#">ACCA Opinions</a>
+          </li>
+          <li>
+            <a href="#">Army Court-Martial Public Record System</a>
+          </li>
+          <li>
+            <a href="#">Army Settlements</a>
+          </li>
+          <li>
+            <a href="#">Bankruptcy Listings</a>
+          </li>
+          <li>
+            <a href="#">FOIA Contact Information</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Access Mobile Verison -->
+    <div class="sevenmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Access Links</h2>
+        <ul>
+          <li>
+            <a href="#">FOIA</a>
+          </li>
+          <li>
+            <a href="#">Request an Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Wellness Mobile Verison -->
+    <div class="eightmobile-search-container hide">
+      <div class="link-search"></div>
+      <div class="search-bar">
+        <form action="">
+          <input type="text" placeholder="Search JAGCNet">
+        </form>
+      </div>
+      <span class="cancel-btn">Cancel</span>
+      <div class="quick-links">
+        <h2>Wellness Links</h2>
+        <ul>
+          <li>
+            <a href="#">OCONUS Military Family Life Counseling (MFLC) POCs</a>
+          </li>
+          <li>
+            <a href="#">Military Crisis Line</a>
+          </li>
+          <li>
+            <a href="#">Army Suicide Prevention Program</a>
+          </li>
+          <li>
+            <a href="#">Suicide & Crisis Hotline</a>
+          </li>
+          <li>
+            <a href="#">Human Performance Resources (by CHAMP)</a>
+          </li>
+          <li>
+            <a href="#">Health & Wellness (Military OneSource)</a>
+          </li>
+          <li>
+            <a href="#">Mental Health Resources</a>
+          </li>
+          <li>
+            <a href="#">ABA Mental Health Resources</a>
+          </li>
+          <li>
+            <a href="#">Army Resilience Directorate</a>
+          </li>
+          <li>
+            <a href="#">Army Ready and Resilient (R2) Performance Centers</a>
+          </li>
+          <li>
+            <a href="#">Stress and Relaxation Drills</a>
+          </li>
+          <li>
+            <a href="#">Nutrition Tips</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div><!-- End  Nav wrapper -->
+
+
+
+  <!-- This is code for the overlay feature -->
+  <div class="overlay"></div>
+
+
+
+  <main class="main">
+
+    <!-- /Call To Action Section -->
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+
+        <h2>U.S. Army Court of Criminal Appeals</h2>
+        <p>The History of the U.S. Army Court of Criminal Appeals</p>
+        <figure class="left">
+          <img class="judical-img" src="./assets/img/drawing.png" alt="">
+          <figcaption><i>The U.S. Army Court of Criminal Appeals Drawing</i>.</figcaption>
+        </figure>
+
+        <p class="leader-style">Before the Uniform Code of Military Justice (UCMJ), Army courts-martial were prosecuted
+          using the Articles of War. The
+          Articles of War were initially established in 1775 and amended most extensively in 1874. Military justice
+          lacked
+          uniformity and some sentences were excessive. There was no system of appellate review. The commander, as
+          reviewing
+          authority, conducted the only post-trial examination of the record of trial in peacetime.</p>
+        <p class="leader-style">On August 23, 1917, in Houston, Texas, African-American Soldiers of the 24th Infantry
+          rioted, killing fifteen white men,
+          including civilians, police officers and National Guardsmen. In November 1917, sixty-three African-American
+          Soldiers
+          were court-martialed in the largest murder trial in American history. Fifty-eight were convicted. Thirteen of
+          the
+          convicted Soldiers were sentenced to death. Article 48 of the Articles of War authorized the command to carry
+          out death
+          sentences without submitting the case for further review or confirmation. The thirteen Soldiers were hanged
+          the next day
+          with no appellate review and no clemency.</p>
+        <p class="leader-style">The Houston riot and ensuing executions exposed the lack of appellate review in
+          court-martial proceedings. Soon after
+          the executions, the War Department promulgated General Order No. 7 on January 17, 1918, requiring the
+          execution of any
+          sentence involving death or dismissal of an officer to be suspended pending review and a determination of
+          legality by
+          the Office of the Judge Advocate General.</p>
+        <p class="leader-style">The UCMJ was enacted by the U.S. Congress in 1950 and took effect on May 31, 1951.
+          Article 66 of the UCMJ gave The Judge
+          Advocate General the power to create Boards of Review. The Boards could review all cases where the sentence
+          approved by
+          the convening authority affected a general or a flag officer, extended to death, a punitive discharge, or
+          included
+          confinement of one year or more. The UCMJ empowered the Boards to “weigh the evidence, judge the credibility
+          of
+          witnesses, and determine controverted questions of fact, recognizing that the trial court saw and heard the
+          witnesses.”
+          Boards of Review could set aside findings or sentence, order a rehearing or, where it found the evidence
+          insufficient,
+          order the charges dismissed. Significantly, the UCMJ created the United States Court of Military Appeals to
+          provide
+          civilian review of courts-martial.</p>
+        <p class="leader-style">The Military Justice Act of 1968 changed the Boards of Review to the Courts of Military
+          Review and made the board
+          members judges. Though commanders initiated courts-martial, the emphasis shifted to attorneys conducting the
+          proceedings
+          under the watchful eye of a trial judiciary. The Act changed military justice practice to closely mirror the
+          civilian
+          court system, including a tiered system of appellate review.</p>
+        <p class="leader-style">Major General Kenneth J. Hodson, serving as The Judge Advocate General of the Army,
+          advocated for the Military Justice
+          Act of 1968. After retiring as The Judge Advocate General, Major General Hodson was immediately recalled to
+          duty as
+          Chief Judge of the Army Court of Military Review in 1971. He also held the concurrent title of Commander, U.S.
+          Army
+          Legal Services Agency. Major General Hodson was the first general officer to serve as the chief judge.</p>
+        <p class="leader-style">In 1994, the U.S. Army Court of Military Review was renamed the U.S. Army Court of
+          Criminal Appeals. The name change
+          coincided with the renaming of the U.S. Court of Military Appeals to the U.S. Court of Appeals for the Armed
+          Forces.</p>
+        <p class="leader-style">Presently, the U.S. Army Court of Criminal Appeals is composed of three judicial panels.
+          Each panel includes three
+          appellate judges (with one judge appointed as the senior judge of that panel) and a commissioner. The Chief
+          Judge, while
+          not assigned full-time to a single panel, sits on cases with judges from all three panels and is also assigned
+          a chief
+          commissioner. The Clerk of Court staff provides paralegal support to the Court.</p>
+
+
+      </div><!-- End Section Title -->
+
+
+
+
+    </section><!-- /Team Section -->
+
+
+
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">JAG Corps</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>9275 Gunston Rd, </p>
+              <p>Fort Belvoir, VA 22060</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="./helpdesk.html" target="_blank"> Service Desk</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.army.mil/armyequityandinclusion#org-accessibility" target="_blank">
+                  Accessibility</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
+                  target="_blank"> Section 508</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Copyright</a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://dodcio.defense.gov/DoD-Web-Policy/"
+                  target="_blank"> DoD lbC
+                  Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4></h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> FOIA</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.army.mil/article/236698" target="_blank"> No
+                  Fear Act</a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://osc.gov/Pages/About.aspx" target="_blank">
+                  OSC</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Privacy
+                  Policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Release
+                  Notes</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Terms</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.usa.gov/" target="_blank"> USA.gov</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Announcements</h4>
+            <p>Subscribe and receive the latest updates from the JAG Corps!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe">
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main copy.js"></script>
+
+</body>
+
+</html>

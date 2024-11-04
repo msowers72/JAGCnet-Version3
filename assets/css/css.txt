@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------
+# my-custom layout
+--------------------------------------------------------------*/
+.my-custom-layout {
+  display: grid;
+  width: 100%;
+  place-items: center;
+}
+
+.custom-row {
+  width: 80%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  overflow-x: hidden;
+  padding: 5rem 0;
+}
+
+.custom-row .imgWrapper {
+  overflow: hidden;
+}
+
+.custom-row .imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+
+.custom-row .imgWrapper:hover img {
+  transform: scale(1.25);
+} 
+
+.custom-row .contentWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.custom-row .contentWrapper span.textWrapper {
+  display: block;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.custom-row .contentWrapper span.textWrapper span {
+  display: inline-block;
+  background: #383f47;
+  width: 70px;
+  height: 5px;
+}
+
+.custom-row .contentWrapper h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #383f47;
+  padding-bottom: 20px;
+}
+
+.custom-row .contentWrapper p {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 25px;
+}
+
+.custom-row .contentWrapper a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #383f47;
+  color: #fff;
+  padding: 15px 40px;
+  Letter-spacing: 1px;
+  user-select: none;
+}
