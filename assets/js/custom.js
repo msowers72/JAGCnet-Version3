@@ -109,7 +109,7 @@ function DisplayList(items, wrapper, rows_per_page, page) {
       let a = document.createElement('a');
       let linkText = document.createElement("span");
       a.appendChild(linkText)
-      linkText.innerText = `JAGCNet`
+      linkText.innerText = `Learn More`
       a.classList.add('readmore');
       a.classList.add('stretched-link');
       a.href = "#"

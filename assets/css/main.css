@@ -1299,9 +1299,9 @@ desktop-nav li:nth-of-type(1),
         display: none;
     }
 
-    /* Nav Move up */
+    /* Nav Move up was -40px */
     .nav-container nav.move-up {
-        margin-top: -40px;
+        margin-top: -110px;
     }
 
     /* cancel button */
@@ -1528,7 +1528,7 @@ desktop-nav li:nth-of-type(1),
     }
 
     .secondmobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  95px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -1536,7 +1536,7 @@ desktop-nav li:nth-of-type(1),
     }
 
     .thirdmobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  120px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -1544,7 +1544,7 @@ desktop-nav li:nth-of-type(1),
     }
 
     .fourthmobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  155px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -1552,7 +1552,7 @@ desktop-nav li:nth-of-type(1),
     }
 
     .fivemobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  175px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -1560,7 +1560,7 @@ desktop-nav li:nth-of-type(1),
     }
 
     .sixmobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  195px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -1568,14 +1568,14 @@ desktop-nav li:nth-of-type(1),
     }
 
     .sevenmobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  230px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
         
     }
     .eightmobile-search-container .search-bar.active ~ .quick-links {
-        top:  80px;
+        top:  275px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -2589,7 +2589,7 @@ section,
 }
 
 .sub-head-bottom {
-background-color: #2f372f;
+background-color: #201E43;
   padding: 25px 0;
 }
 
@@ -2648,7 +2648,7 @@ background-color: #2f372f;
 }
 
 .apply-bottom:hover {
-  background-color: #2f372f;
+  background-color: #201E43;
   color: #fff;
   outline: 1px solid var(--accent-color);
 }
@@ -4684,7 +4684,7 @@ ul.judical li {
 .featured-links-section h2 {
   font-size: 4.5rem;
   font-weight: normal;
-  font-family: cursive;
+  
 }
 
 .blog-posts article {
