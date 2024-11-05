@@ -17,6 +17,23 @@ const list_items = [
 const list_element = document.querySelector('#list');
 const pagination_element = document.querySelector('#pagination');
 
+ let prevButton = document.createElement('li');
+  let prev_a_elm = document.createElement('a');
+  let prev_i_elm = document.createElement('i');
+  prev_i_elm.classList.add('bi');
+  prev_i_elm.classList.add('bi-chevron-left')
+  prev_a_elm.appendChild(prev_i_elm);
+prevButton.appendChild(prev_a_elm);
+  
+let nextButton = document.createElement('li');
+  let next_a_elm = document.createElement('a');
+  let next_i_elm = document.createElement('i');
+  next_i_elm.classList.add('bi');
+  next_i_elm.classList.add('bi-chevron-right')
+  next_a_elm.appendChild(next_i_elm);
+  nextButton.appendChild(next_a_elm);
+  
+
 // declare variables for current page and total number of cards
 let current_page = 1;
 let rows = 3;
@@ -129,31 +146,18 @@ function setupPagination(items, wrapper, rows_per_page) { // array, div#paginati
    wrapper.innerHTML = "";
 
   let page_count = Math.ceil(items.length / rows_per_page); // 5
-  /*
-  let prevButton = document.createElement('li');
-  let prev_a_elm = document.createElement('a');
-  let prev_i_elm = document.createElement('i');
-  prev_i_elm.classList.add('bi');
-  prev_i_elm.classList.add('bi-chevron-left')
-  prev_a_elm.appendChild(prev_i_elm);
-  prevButton.appendChild(prev_a_elm);
-  wrapper.appendChild(prevButton)
-* */
+  
+//  wrapper.appendChild(prevButton)
+  
    for(let i = 1; i < page_count + 1 ; i++) {
     let btn = PaginationButton(i, items)
     wrapper.appendChild(btn)
   };
   
-  /*
-  let nextButton = document.createElement('li');
-  let next_a_elm = document.createElement('a');
-  let next_i_elm = document.createElement('i');
-  next_i_elm.classList.add('bi');
-  next_i_elm.classList.add('bi-chevron-right')
-  next_a_elm.appendChild(next_i_elm);
-  nextButton.appendChild(next_a_elm);
-  wrapper.appendChild(nextButton)
-  * */
+  
+  
+  // wrapper.appendChild(nextButton)
+  
   
 };
 
@@ -162,26 +166,30 @@ function PaginationButton(page, items) {
   let button = document.createElement('li');
   let a_elem = document.createElement('a');
   button.appendChild(a_elem)
-    a_elem.innerText = page;
+    a_elem.innerText = page;  
 
     if(current_page === page) {
         a_elem.classList.add('active');
     };
-
-    button.addEventListener('click', () =>{
+  
+  button.addEventListener('click', () => {
         
-        current_page = page
+    current_page = page
+   
+    DisplayList(items, list_element, rows, current_page);
 
-        DisplayList(items, list_element, rows, current_page);
+    let current_btn = document.querySelector('.pagenumbers a.active')
+    current_btn.classList.remove('active');
+    a_elem.classList.add('active');
+  });
 
-        let current_btn = document.querySelector('.pagenumbers a.active')
-        current_btn.classList.remove('active');
-        a_elem.classList.add('active');
-    })
-
+ 
    return button;
 
 };
+
+
+ 
 
 
 DisplayList(list_items, list_element, rows, current_page)
