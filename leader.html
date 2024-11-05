@@ -42,7 +42,11 @@
 
   <!-- Nav wrapper -->
   <div class="nav-container">
+    <div class="special-header">
+      <h2>1L Internship Opportunities and Active Duty Applications Open 01 January</h2>
+    </div>
     <nav>
+  
       <ul class="mobile-nav">
         <li>
           <div class="menu-icon-container">
@@ -52,8 +56,8 @@
             </div>
           </div>
         </li>
-        <li class="new-mobile-logo">
-          <a href="./index.html" class="link-logo" target="_blank">
+        <li class="new-mobile-logo" id="new-mobile-logo">
+          <a href="./index.html" class="link-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
           </a>
           <p class="">JAG Corps</p>
@@ -62,12 +66,15 @@
             <a href="#" class="link-bag"></a>
           </li> -->
       </ul>
+  
       <ul class="desktop-nav">
-        <li>
-          <a href="./index.html" class="link-logo">
+        <li class="my-flex">
+          <a href="./index.html" class="link-logo" id="link-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
-            <span class="jag-logo">JAG Corps</span>
+  
           </a>
+  
+          <span class="logo-span">JAG Corps</span>
         </li>
         <li>
           <a href="#" class="tab-search" id="tab-search">Leadership</a>
@@ -93,9 +100,9 @@
         <li>
           <a href="#" class="eight-search">Wellness</a>
         </li>
-        <li>
-          <a href="#" class="link-search"></a>
-        </li>
+        <!-- <li>
+            <a href="#" class="link-search"></a>
+          </li> -->
         <!-- <li>
                       <a href="#" class="link-bag"></a>
                   </li> -->
@@ -155,20 +162,21 @@
   
     <!-- Search bar code first link -->
     <div class="search-container first-link hide" id="first-link">
-      <div class="link-search"></div>
-      <div class="tab-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search JAGCNet">
-        </form>
-      </div>
-      <div class="firstLink-close"></div>
+      <!-- <div class="link-search"></div> -->
+      <!-- <div class="tab-search"></div> -->
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search JAGCNet">
+          </form>
+        </div> -->
+      <!-- <div class="firstLink-close"></div> -->
       <div class="quick-links">
+        <div class="firstLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
           </div> -->
-        <h2>Leadership Links</h2>
+        <h2>Leadership</h2>
         <ul class="flex-links">
           <li>
             <a href="./leader.html" target="_blank">Leadership</a>
@@ -217,13 +225,14 @@
     <div class="search-container second-link hide" id="second-link">
       <div class="link-search"></div>
       <div class="second-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
-      </div>
-      <div class="secondLink-close"></div>
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form>
+        </div> -->
+  
       <div class="quick-links">
+        <div class="secondLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -256,13 +265,14 @@
     <div class="search-container third-link hide" id="third-link">
       <div class="link-search"></div>
       <div class="third-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
-      </div>
-      <div class="thirdLink-close"></div>
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form>
+        </div> -->
+  
       <div class="quick-links">
+        <div class="thirdLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -270,7 +280,7 @@
         <h2>Legal Services Links</h2>
         <ul class="flex-links">
           <li>
-            <a href="https://www.jagcnet.army.mil/USARCS" target="_blank">Claims Website</a>
+            <a href="./claims.html" target="_blank">Claims Website</a>
           </li>
           <li>
             <a href="https://www.jagcnet.army.mil/Apps/PCLAIMS/PCLAIMSPublic.nsf" target="_blank">File a Personnel
@@ -287,7 +297,7 @@
             <a href="https://legalassistance.law.af.mil/" target="_blank">Legal Assistance Offices</a>
           </li>
           <li>
-            <a href="https://www.jagcnet.army.mil/Sites/OSC.nsf" target="_blank">Office of the Soldier's Counsel</a>
+            <a href="./office.html" target="_blank">Office of the Soldier's Counsel</a>
           </li>
           <li>
             <a href="https://www.jagcnet.army.mil/SLRR" target="_blank">Soldier Legal Readiness Review</a>
@@ -296,7 +306,7 @@
             <a href="https://www.jagcnet.army.mil/SVCounsel" target="_blank">Special Victims' Counsel Program</a>
           </li>
           <li>
-            <a href="https://www.jagcnet.army.mil/TDS" target="_blank">Trial Defense Service</a>
+            <a href="./trialdefense.html" target="_blank">Trial Defense Service</a>
           </li>
           <li>
             <a href="#" target="_blank">Online Ethics Training</a>
@@ -317,13 +327,14 @@
     <div class="search-container fourth-link hide" id="fourth-link">
       <div class="link-search"></div>
       <div class="fourth-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
-      </div>
-      <div class="fourthLink-close"></div>
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form>
+        </div> -->
+  
       <div class="quick-links">
+        <div class="fourthLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -369,13 +380,14 @@
     <div class="search-container five-link hide" id="five-link">
       <div class="link-search"></div>
       <div class="five-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
-      </div>
-      <div class="fiveLink-close"></div>
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form>
+        </div> -->
+  
       <div class="quick-links">
+        <div class="fiveLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -430,13 +442,14 @@
     <div class="search-container six-link hide" id="six-link">
       <div class="link-search"></div>
       <div class="six-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
-      </div>
-      <div class="sixLink-close"></div>
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form>
+        </div> -->
+  
       <div class="quick-links">
+        <div class="sixLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -473,12 +486,13 @@
       <div class="link-search"></div>
       <div class="seven-search"></div>
       <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
+        <!-- <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form> -->
       </div>
-      <div class="sevenLink-close"></div>
+  
       <div class="quick-links">
+        <div class="sevenLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -500,13 +514,14 @@
     <div class="search-container eight-link hide" id="eight-link">
       <div class="link-search"></div>
       <div class="eight-search"></div>
-      <div class="search-bar active">
-        <form action="">
-          <input type="text" placeholder="Search Jagcnet">
-        </form>
-      </div>
-      <div class="eightLink-close"></div>
+      <!-- <div class="search-bar active">
+          <form action="">
+            <input type="text" placeholder="Search Jagcnet">
+          </form>
+        </div> -->
+  
       <div class="quick-links">
+        <div class="eightLink-close"></div>
         <!-- <div class="desktop-logo">
             <img src="./assets/images/usarmy.svg" alt="" class="img-logo">
             <span class="jag-logo">JAG Corps</span>
@@ -559,12 +574,12 @@
   
     <!-- Mobile Verison -->
     <div class="mobile-search-container">
-      <div class="link-search"></div>
-      <div class="search-bar">
-        <form action="">
-          <input type="text" placeholder="Search JAGCNet">
-        </form>
-      </div>
+      <!-- <div class="link-search"></div> -->
+      <!-- <div class="search-bar">
+          <form action="">
+            <input type="text" placeholder="Search JAGCNet">
+          </form>
+        </div> -->
       <span class="cancel-btn">Cancel</span>
       <div class="quick-links">
         <h2>Quick Links</h2>
@@ -610,9 +625,10 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
-        <h2>Leadership Links</h2>
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
+        <h2>Leadership</h2>
         <ul>
           <li>
             <a href="./leader.html">Leadership</a>
@@ -655,8 +671,9 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
-      <div class="quick-links">
+  
+      <div class="quick-links career">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>Career Links</h2>
         <ul>
           <li>
@@ -685,12 +702,13 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>Legal Services</h2>
         <ul>
           <li>
-            <a href="#">Claims Website</a>
+            <a href="./claims.html" target="_blank">Claims Website</a>
           </li>
           <li>
             <a href="#">File a Personnel Claim</a>
@@ -705,7 +723,7 @@
             <a href="#">Legal Assistance Offices</a>
           </li>
           <li>
-            <a href="#">Office of the Soldier's Counsel</a>
+            <a href="./office.html" target="_blank">Office of the Soldier's Counsel</a>
           </li>
           <li>
             <a href="#">Soldier Legal Readiness Review</a>
@@ -714,17 +732,17 @@
             <a href="#">Special Victims' Counsel Program</a>
           </li>
           <li>
-            <a href="#">Trial Defense Service</a>
+            <a href="./trialdefense.html" target="_blank">Trial Defense Service</a>
           </li>
-          <li>
-            <a href="#">Online Ethics Training</a>
-          </li>
-          <li>
-            <a href="#">Initial Ethics Training for New Personnel</a>
-          </li>
-          <li>
-            <a href="#">Procurement Fraud Division</a>
-          </li>
+          <!-- <li>
+              <a href="#">Online Ethics Training</a>
+            </li> -->
+          <!-- <li>
+              <a href="#">Initial Ethics Training for New Personnel</a>
+            </li> -->
+          <!-- <li>
+              <a href="#">Procurement Fraud Division</a>
+            </li> -->
         </ul>
       </div>
     </div>
@@ -736,15 +754,13 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>Court Links</h2>
         <ul>
           <li>
             <a href="./judiciary.html">U.S. Army Trial Judiciary (Website)</a>
-          </li>
-          <li>
-            <a href="#">U.S. Army Trial Judiciary (Website)</a>
           </li>
           <li>
             <a href="#">Random Number Generator (Classic Version)</a>
@@ -779,8 +795,9 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>Public Doc Links</h2>
         <ul>
           <li>
@@ -810,9 +827,9 @@
           <li>
             <a href="#">Pub 1-1</a>
           </li>
-          <li>
-            <a href="#">RC PPTO Update</a>
-          </li>
+          <!-- <li>
+              <a href="#">RC PPTO Update</a>
+            </li> -->
         </ul>
       </div>
     </div>
@@ -825,8 +842,9 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>FOIA Links</h2>
         <ul>
           <li>
@@ -856,8 +874,9 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>Access Links</h2>
         <ul>
           <li>
@@ -877,8 +896,9 @@
           <input type="text" placeholder="Search JAGCNet">
         </form>
       </div>
-      <span class="cancel-btn">Cancel</span>
+  
       <div class="quick-links">
+        <span class="cancel-btn"><i class="bi bi-arrow-left"></i></span>
         <h2>Wellness Links</h2>
         <ul>
           <li>
@@ -908,20 +928,21 @@
           <li>
             <a href="#">Army Resilience Directorate</a>
           </li>
-          <li>
-            <a href="#">Army Ready and Resilient (R2) Performance Centers</a>
-          </li>
-          <li>
-            <a href="#">Stress and Relaxation Drills</a>
-          </li>
-          <li>
-            <a href="#">Nutrition Tips</a>
-          </li>
+          <!-- <li>
+              <a href="#">Army Ready and Resilient (R2) Performance Centers</a>
+            </li> -->
+          <!-- <li>
+              <a href="#">Stress and Relaxation Drills</a>
+            </li> -->
+          <!-- <li>
+              <a href="#">Nutrition Tips</a>
+            </li> -->
         </ul>
       </div>
     </div>
   
-  </div><!-- End  Nav wrapper -->
+  </div>
+  <!-- End  Nav wrapper -->
   
   <!-- This is code for the overlay feature -->
   <div class="overlay"></div>
@@ -1530,101 +1551,89 @@
 
   </main>
 
-  <footer id="footer" class="footer">
+<footer id="footer" class="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">JAG Corps</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>9275 Gunston Rd, </p>
-              <p>Fort Belvoir, VA 22060</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
-            </div>
-            <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-4 mobile-footer">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">USALSA</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>9275 Gunston Rd, </p>
+            <p>Fort Belvoir, VA 22060</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="./helpdesk.html"
-                  target="_blank"> Service Desk</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.army.mil/armyequityandinclusion#org-accessibility" target="_blank">
-                  Accessibility</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
-                  target="_blank"> Section 508</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Copyright</a>
-              </li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://dodcio.defense.gov/DoD-Web-Policy/"
-                  target="_blank"> DoD lbC
-                  Policy</a></li>
-            </ul>
-          </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <h4>Useful Links</h4> -->
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="./helpdesk.html" target="_blank"> Service Desk</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a
+                href="https://www.army.mil/armyequityandinclusion#org-accessibility" target="_blank">
+                Accessibility</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
+                target="_blank"> Section 508</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a
+                href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Copyright</a>
+            </li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://dodcio.defense.gov/DoD-Web-Policy/"
+                target="_blank"> DoD lbC Policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.usa.gov/" target="_blank"> USA.gov</a></li>
+          </ul>
+        </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4></h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> FOIA</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.army.mil/article/236698" target="_blank"> No
-                  Fear Act</a>
-              </li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://osc.gov/Pages/About.aspx" target="_blank">
-                  OSC</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Privacy
-                  Policy</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Release
-                  Notes</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Terms</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.usa.gov/" target="_blank"> USA.gov</a></li>
-            </ul>
-          </div>
+        <div class="col-lg-2 col-md-3 footer-links mobile-footer-link">
 
-          <div class="col-lg-4 col-md-12 footer-newsletter">
-            <h4>Announcements</h4>
-            <p>Subscribe and receive the latest updates from the JAG Corps!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe">
-              </div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
-          </div>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a
+                href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> FOIA</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.army.mil/article/236698" target="_blank"> No
+                Fear Act</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://osc.gov/Pages/About.aspx" target="_blank">
+                OSC</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a
+                href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Privacy
+                Policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a
+                href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Release
+                Notes</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a
+                href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/footerContent.xsp" target="_blank"> Terms</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links mobile-footer-link mobile-hide">
+          <img src="./assets/img/GoArmyJAG-jag-logo-01.png" alt="" class="footer-img">
 
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="copyright">
-      <div class="container text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+  <div class="copyright">
+    <div class="container text-center">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
+  </div>
 
-  </footer>
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
