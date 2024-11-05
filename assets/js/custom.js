@@ -128,13 +128,32 @@ function DisplayList(items, wrapper, rows_per_page, page) {
 function setupPagination(items, wrapper, rows_per_page) { // array, div#pagination, 5
    wrapper.innerHTML = "";
 
-   let page_count = Math.ceil(items.length / rows_per_page); // 5
-
+  let page_count = Math.ceil(items.length / rows_per_page); // 5
+  /*
+  let prevButton = document.createElement('li');
+  let prev_a_elm = document.createElement('a');
+  let prev_i_elm = document.createElement('i');
+  prev_i_elm.classList.add('bi');
+  prev_i_elm.classList.add('bi-chevron-left')
+  prev_a_elm.appendChild(prev_i_elm);
+  prevButton.appendChild(prev_a_elm);
+  wrapper.appendChild(prevButton)
+* */
    for(let i = 1; i < page_count + 1 ; i++) {
     let btn = PaginationButton(i, items)
-
     wrapper.appendChild(btn)
-   };
+  };
+  
+  /*
+  let nextButton = document.createElement('li');
+  let next_a_elm = document.createElement('a');
+  let next_i_elm = document.createElement('i');
+  next_i_elm.classList.add('bi');
+  next_i_elm.classList.add('bi-chevron-right')
+  next_a_elm.appendChild(next_i_elm);
+  nextButton.appendChild(next_a_elm);
+  wrapper.appendChild(nextButton)
+  * */
   
 };
 

@@ -168,7 +168,7 @@ nav .desktop-nav {
     align-items: center;
     position: relative;
     list-style: none;
-    
+    margin-top: 5px;
 }
 
 nav .desktop-nav li a {
@@ -193,8 +193,43 @@ nav .desktop-nav li a:hover {
     background-repeat: no-repeat;
 } */
 
+nav .desktop-nav li.my-flex {
+  display: flex;
+  
+}
+nav .desktop-nav li span.logo-span {
+  display: inline-block;
+ margin-top: 4px;
+ color: #fff;
+ padding-left: 5px;
+ font-size: 18px;
+ font-weight: 400;
+ color: #ffcc01;
+}
 
+.col-lg-4.learn-more {
+  position: relative;
+}
 
+.readmore.stretched-link.card-a-elm {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+
+.readmore.stretched-link.card-a-elm:hover {
+  color: var(--accent-color);
+}
+
+.featured-links-section img.corps-img {
+  height: 150px;
+}
+
+.footer-top .mobile-footer-link img.footer-img {
+  height: 160px;
+}
+
+/* This code was for the old logo design */
 .jag-logo {
     color: #ffc451;
     position: absolute;
@@ -849,6 +884,8 @@ desktop-nav li:nth-of-type(1),
         display: none;
         
     } */
+
+    
     .new-mobile-logo {
       position: relative;
       margin-top: 0px;
@@ -909,6 +946,12 @@ desktop-nav li:nth-of-type(1),
     }
 
     @media (max-width: 500px) {
+     nav .desktop-nav li span.logo-span {
+    display: none;
+   }
+    .mobile-footer-link.mobile-hide {
+       display: none;
+    }
       .nav-container {
     height: 110px;
     }
