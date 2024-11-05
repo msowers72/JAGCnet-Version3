@@ -4699,6 +4699,11 @@ font-size: 2rem;
 
 
 @media (max-width: 500px) {
+  .service-details .col-lg-8.ps-lg-5 p.itd-headline {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
 .service-details p.new-title {
     font-size: 22px;
    
