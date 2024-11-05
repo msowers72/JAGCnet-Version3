@@ -4254,7 +4254,8 @@ section, .section {
   box-shadow: 0px 2px 20px color-mix(in srgb, var(--default-color), transparent 88%);
   /* background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3); */
   /* background-image: linear-gradient(to bottom right, #bccbde, #c2dde6); */
-  background-image: linear-gradient(to bottom right, #0d0f40, #bccbde);
+  /* background-image: linear-gradient(to bottom right, #0d0f40, #bccbde); */
+  background-color: #0b192c;
  
 }
 
@@ -4434,6 +4435,11 @@ font-size: 2rem;
   color: var(--accent-color);
 }
 
+.service-details .col-lg-8.ps-lg-5 p.itd-headline {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
 
 
 /* CSS button 54*/
