@@ -146,7 +146,7 @@ h6 {
     background: rgba(0, 0, 0, 0.9);
     /* height: 44px; */
     height: 110px;
-    z-index: 300;
+    z-index: 999;
     position: fixed;
     left: 0;
     top: 0;
@@ -363,7 +363,7 @@ nav .desktop-nav li span.logo-span {
     top: 125px;
     left: 0;
     right: 0;
-    z-index: 200;
+    z-index: 999;
 }
 
 .search-container .link-search {
@@ -530,7 +530,7 @@ nav .desktop-nav li span.logo-span {
     height: 100vh;
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 600;
 }
 
 /* Quick Links */
@@ -862,7 +862,7 @@ desktop-nav li:nth-of-type(1),
     background: rgba(0, 0, 0, 1);
     /* height: 44px; */
     height: 110px;
-    z-index: 300;
+    z-index: 999;
     position: fixed;
     left: 0;
     top: 0;
@@ -984,6 +984,7 @@ desktop-nav li:nth-of-type(1),
         width: 100%;
         justify-content: space-between;
         list-style: none;
+        
     }
 
     nav .menu-icon-container {
@@ -2781,8 +2782,26 @@ section,
   font-size: 1.6rem;
   line-height: 1.5;
   margin-bottom: 15px;  
+  max-width: 760px;
+}
+
+.top_flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+.top_flex .container {
+  max-width: 500px;
   
 }
+
+.top_flex .container .leader-style {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
 
 a.custom-a {
   color: blue;
@@ -3980,6 +3999,22 @@ section, .section {
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+.team.section.leader {
+  background-color: #0b192c
+}
+
+.leader_top h2{
+  color: #fff;
+}
+
+.team.section.leader .container.section-title h2 {
+  color: var(--accent-color);
+}
+
+.team.section.leader .container.section-title p {
+  color: #fff;
+}
+
 .team .team-member {
   overflow: hidden;
   border-radius: 5px;
@@ -5059,6 +5094,140 @@ ul.judical li {
   user-select: none;
 }
 
+/*--------------------------------------------------------------
+# New leadership page code
+--------------------------------------------------------------*/
+
+
+
+.main .title {
+    font-size: 50px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* CSS for the card container */
+.main {
+  background-color: #0b192c;
+}
+
+.main .card_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 75px;
+    max-width: 1500px;
+    margin: 50px auto 75px;
+}
+
+.main .card_container.first_container {
+    margin-bottom: 10px;
+}
+
+.card_container .card {
+    max-width: 460px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #1e293b;
+    border: 0.5px solid #ffc107 !important;
+    padding: 15px;
+    color: #f1f5f9;
+    position: relative;
+}
+
+.center-cards {
+display: flex;
+justify-content: center;
+margin-top: -55px;
+}
+
+.center-cards.top {
+  margin-top: 10px;
+}
+.center-cards .card_container {
+grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 35px;
+}
+
+
+
+
+.user_content .name{
+    font-size: 20px;
+    color: #fff;
+}
+
+.user_content .post{
+    font-size: 15px;
+    color: #ffc107;
+    margin: 15px 0;
+    font-weight: 400;
+    
+    position: relative;
+    left: 16px;
+}
+
+.user_content .post::before{
+    content: "";
+    height: 1px;
+    width: 15px;
+    background: #ffc107;
+    position: absolute;
+    top: 50%;
+    left: -16px;
+}
+
+.user_content .about {
+   color: #cbd5e1;
+  
+   margin-top: 10px;
+   font-size: 13px; 
+}
+
+.card .round_box {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    background: #1e293b !important;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ffc107;
+    border-radius: 50%;
+    z-index: 333;
+}
+
+.card .img_box {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    z-index: 555;
+}
+
+.card .img_box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card .squareBox{
+    height: 108px;
+    width: 150px;
+    background: #1e293b;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: 444;
+}
+
+.star {
+  line-height: 1.5;
+  margin-top: 32px;
+}
+
 @media(max-width: 991px) {
   .custom-row {
  
@@ -5074,6 +5243,9 @@ ul.judical li {
 }
 
 @media (max-width: 768px) {
+  .top_flex {
+    display: block;
+  }
   .custom-row {
     width: 90%;
   }
@@ -5096,6 +5268,37 @@ height: 100%;
 }
 
 @media (max-width: 575px) {
+ .card_container .card.mobile {
+    margin-top: 50px;
+  }
+.center-cards.top {
+    margin-top: 0px;
+}
+
+.top_flex {
+  margin-top: 10px;
+}
+
+.top_flex .container .leader-style {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.main .card_container {
+    display: block;
+ 
+}
+
+.main .title {
+  font-size: 2.5rem;
+}
+
+.card_container .card {
+   
+    margin-top: 100px;
+   
+}
+
   .about.section {
     height: 100%;
 }
