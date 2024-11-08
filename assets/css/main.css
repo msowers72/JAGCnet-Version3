@@ -5225,7 +5225,7 @@ grid-column-gap: 35px;
 
 .star {
   line-height: 1.5;
-  margin-top: 32px;
+  margin-top: 50px;
 }
 
 @media(max-width: 991px) {
