@@ -5128,7 +5128,7 @@ ul.judical li {
 }
 
 .card_container .card {
-    max-width: 460px;
+    max-width: 530px;
     margin-top: 10px;
     border-radius: 20px;
     background: #1e293b;
@@ -5240,6 +5240,18 @@ grid-column-gap: 35px;
   padding-left: 0px;
 }
 
+}
+
+@media(max-width: 1024px) {
+ .main .card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 75px;
+    max-width: 1500px;
+    margin: 50px auto 75px;
+}
 }
 
 @media (max-width: 768px) {
