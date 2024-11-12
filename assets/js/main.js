@@ -442,7 +442,7 @@ const activeSearchBar = document.querySelector('.search-container .search-bar.ac
 
 
 
-/*
+
 searchButton.addEventListener('click', () => {
   desktopNav.classList.add('hide');
   searchContainer.classList.remove('hide');
@@ -456,7 +456,7 @@ searchButton.addEventListener('click', () => {
   eightLink.classList.add('hide');
   overlay.classList.add('show');
 });
-* */
+
 
 tabSearch.addEventListener('click', () => {
     if(x.matches) {
@@ -746,7 +746,7 @@ const eightsearchBar = document.querySelector('.eightmobile-search-container .se
 
 const nav = document.querySelector(".nav-container nav");
 
-const searchInput = document.querySelector(".mobile-search-container input");
+const searchInput = document.querySelector(".mobile-search-container .search-bar");
 
 const firstsearchInput = document.querySelector('.firstmobile-search-container input')
 const secondsearchInput = document.querySelector('.secondmobile-search-container input')
@@ -780,13 +780,13 @@ const sixmobileSearch = document.querySelector('.sixmobile-search-container')
 const sevenmobileSearch = document.querySelector('.sevenmobile-search-container')
 const eightmobileSearch = document.querySelector('.eightmobile-search-container')
 
-/* 
+
 searchInput.addEventListener("click", () => {
     searchBar.classList.add("active");
-    nav.classList.add("move-up");
+    // nav.classList.add("move-up");
     desktopNav.classList.add("move-down");
 });
-* */
+
 
 
 cancelBtn.addEventListener("click", () => {

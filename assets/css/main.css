@@ -237,7 +237,7 @@ nav .desktop-nav li span.logo-span {
     left: 58px;
 }
 
-.link-search {
+/* .link-search {
     background: url(../images/search-icon.svg);
     display: block;
     background-position: center;
@@ -245,7 +245,7 @@ nav .desktop-nav li span.logo-span {
     height: 44px;
     width: 20px;
     background-repeat: no-repeat;
-}
+} */
 
 .link-bag {
     background: url(../images/bag-icon.svg);
@@ -789,6 +789,10 @@ desktop-nav li:nth-of-type(1),
 }
 .search-container .quick-links ul li:nth-of-type(5) {
    transition-delay: 200ms; 
+}
+
+.search-bar {
+  color: #fff;
 }
 
 /* This code hides the search input */
@@ -2610,7 +2614,9 @@ section,
   
 }
 
-
+.blog-pagination.section.blog-edits {
+  margin-top: 0px;
+}
 .sub-head-intro {
   background: rgba(0, 0, 0, 0.9);
   padding: 25px 0;
@@ -2814,7 +2820,7 @@ ul.judical {
 
 ul.judical li {
    font-weight: normal;
-   font-size: 2rem;
+   font-size: 1.6rem;
    list-style-type: disc;
    line-height: 1.5;
    margin-bottom: 15px;
@@ -4458,6 +4464,19 @@ font-size: 2rem;
   font-size: 15px;
 }
 
+ul.judical.cp56 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex-contacts {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
 .service-details ul li {
   padding: 5px 0;
   display: flex;
@@ -4468,6 +4487,10 @@ font-size: 2rem;
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+
+.top-cp {
+  float: none;
 }
 
 .service-details .col-lg-8.ps-lg-5 p.itd-headline {
@@ -4734,6 +4757,9 @@ font-size: 2rem;
 
 
 @media (max-width: 500px) {
+  .flex-contacts {
+    display: block;
+  }
   .service-details .col-lg-8.ps-lg-5 p.itd-headline {
     text-align: center;
     font-size: 2.5rem;
