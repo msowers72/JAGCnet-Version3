@@ -1,14 +1,14 @@
 // Base array that will hold objects
 const list_items = [
-  { date: "November 2024", photo_url: "./assets/img/homepage-ceremony_lg.jpg", eventsDate: 'Up Coming Events November 2024', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.'},
-  { date: "December 2024", photo_url: "./assets/img/homepage-planning_lg.jpg", eventsDate: 'Up Coming Events December 2024', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.' },
-  { date: "January 2025", photo_url: "./assets/img/GoArmyJAG-Intern-04-Interns at PT.jpg", eventsDate: 'Up Coming Events January 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.' },
-  { date: "February 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events February 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.'},
-  { date: "March 2025", photo_url: "./assets/img/GoArmyJAG-eligibility-banner.jpg", eventsDate: 'Up Coming Events March 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.' },
-  { date: "April 2025", photo_url: "./assets/img/GoArmyJAG-active-duty-eligibility-requirement.jpg", eventsDate: 'Up Coming Events April 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.' },
-   { date: "May 2025", photo_url: "./assets/img/GoArmyJAG-Training-DCC-CPT-Stacey-Fernandez.jfif", eventsDate: 'Up Coming Events May 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.'},
-  { date: "June 2025", photo_url: "./assets/img/GoArmyJAG-ACFT-03.jpg", eventsDate: 'Up Coming Events June 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.' },
-  { date: "July 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events July 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.' },
+  { date: "November 2024", photo_url: "./assets/img/homepage-ceremony_lg.jpg", eventsDate: 'Up Coming Events November 2024', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html'},
+  { date: "December 2024", photo_url: "./assets/img/homepage-planning_lg.jpg", eventsDate: 'Up Coming Events December 2024', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
+  { date: "January 2025", photo_url: "./assets/img/GoArmyJAG-Intern-04-Interns at PT.jpg", eventsDate: 'Up Coming Events January 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
+  { date: "February 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events February 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html'},
+  { date: "March 2025", photo_url: "./assets/img/GoArmyJAG-eligibility-banner.jpg", eventsDate: 'Up Coming Events March 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
+  { date: "April 2025", photo_url: "./assets/img/GoArmyJAG-active-duty-eligibility-requirement.jpg", eventsDate: 'Up Coming Events April 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
+   { date: "May 2025", photo_url: "./assets/img/GoArmyJAG-Training-DCC-CPT-Stacey-Fernandez.jfif", eventsDate: 'Up Coming Events May 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html'},
+  { date: "June 2025", photo_url: "./assets/img/GoArmyJAG-ACFT-03.jpg", eventsDate: 'Up Coming Events June 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
+  { date: "July 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events July 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
   
 ];
 
@@ -129,7 +129,8 @@ function DisplayList(items, wrapper, rows_per_page, page) {
       linkText.innerText = `Learn More`
       a.classList.add('readmore');
       a.classList.add('stretched-link');
-      a.href = "#"
+      a.setAttribute("target", "blank")
+      a.href = `${item.link}`
       let new_i_elem = document.createElement('i');
       new_i_elem.classList.add('bi');
       new_i_elem.classList.add('bi-arrow-right');

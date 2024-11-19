@@ -4458,6 +4458,71 @@ font-size: 2rem;
   text-transform: uppercase;
 }
 
+.container.nov-events {
+  max-width: 760px;
+}
+
+.hero.section.my-hero {
+ min-height: 50vh;
+}
+
+.hero.section.my-hero p {
+ color: #fff;
+ z-index: 1;
+ font-size: 3rem;
+ max-width: 760px;
+ font-weight: bold;
+ text-align: center;
+ margin-bottom: 100px;
+}
+
+.hero.section.my-hero::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 96%;
+    background: var(--background-color);
+    opacity: 0.3;
+    z-index: 0;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) translateY(18px) rotate(2deg);
+}
+
+
+.hero.section.my-hero::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 95%;
+    background: linear-gradient(to right, color-mix(in srgb, var(--default-color), transparent 100%), var(--default-color)), url("../img/2500_roadmap.png") center top no-repeat;
+    background-size: cover;
+    z-index: 0;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.main.special-events {
+  background-color: transparent;
+  
+}
+
+.team.section.section-events {
+  margin-top: 0px;
+}
+
+.service-details p.new-title.events {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
 .service-details ul {
   list-style: none;
   padding: 0;
@@ -5254,6 +5319,11 @@ grid-column-gap: 35px;
   margin-top: 50px;
 }
 
+/*--------------------------------------------------------------
+# Nov-Events Css code
+--------------------------------------------------------------*/
+
+
 @media(max-width: 991px) {
   .custom-row {
  
@@ -5306,6 +5376,10 @@ height: 100%;
 }
 
 @media (max-width: 575px) {
+.hero.section.my-hero p {
+    font-size: 2rem;
+}
+
  .card_container .card.mobile {
     margin-top: 50px;
   }
