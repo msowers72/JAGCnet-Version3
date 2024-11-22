@@ -1,14 +1,11 @@
 // Base array that will hold objects
 const list_items = [
-  { date: "November 2024", photo_url: "./assets/img/homepage-ceremony_lg.jpg", eventsDate: 'Up Coming Events November 2024', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html'},
-  { date: "December 2024", photo_url: "./assets/img/homepage-planning_lg.jpg", eventsDate: 'Up Coming Events December 2024', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
-  { date: "January 2025", photo_url: "./assets/img/GoArmyJAG-Intern-04-Interns at PT.jpg", eventsDate: 'Up Coming Events January 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
-  { date: "February 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events February 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html'},
-  { date: "March 2025", photo_url: "./assets/img/GoArmyJAG-eligibility-banner.jpg", eventsDate: 'Up Coming Events March 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
-  { date: "April 2025", photo_url: "./assets/img/GoArmyJAG-active-duty-eligibility-requirement.jpg", eventsDate: 'Up Coming Events April 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
-   { date: "May 2025", photo_url: "./assets/img/GoArmyJAG-Training-DCC-CPT-Stacey-Fernandez.jfif", eventsDate: 'Up Coming Events May 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html'},
-  { date: "June 2025", photo_url: "./assets/img/GoArmyJAG-ACFT-03.jpg", eventsDate: 'Up Coming Events June 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
-  { date: "July 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events July 2025', paraText: 'Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et.', link: './nov-events.html' },
+  { date: "November 2024", photo_url: "./assets/img/homepage-ceremony_lg.jpg", eventsDate: 'Up Coming Events 15-Nov-2024', paraText: 'Recipient of the Inaugural Chief Warrant Officer Three (CW3) Melanie D. Sellars Servant Leadership Award .', link: './nov-events.html'},
+  { date: "November 2024", photo_url: "./assets/img/homepage-planning_lg.jpg", eventsDate: 'Up Coming Events 21-Nov-2024', paraText: "Please join The Judge Advocate General's Legal Center and School for the NCOA SLC 001-25 & ALC 001-25 Graduation.", link: './nov2-events.html' },
+  { date: "January 2025", photo_url: "./assets/img/GoArmyJAG-Intern-04-Interns at PT.jpg", eventsDate: 'Up Coming Events 13-Jan-2025', paraText: 'General: The 22nd Ethics Counselor Course is scheduled for Monday, 13 January 2025 to Friday, 17 January 2025.', link: './jan-events.html' },
+  { date: "January 2025", photo_url: "./assets/img/GoArmyJAG-FLEP-Eligibility-MAJ-Ferrell-MAJ-IG.jpg", eventsDate: 'Up Coming Events 22-Jan-2025', paraText: 'The 14th Emergent Topics in International & Operational Law (ETIOL) Course', link: './jan2-events.html'},
+  { date: "January 2025", photo_url: "./assets/img/GoArmyJAG-eligibility-banner.jpg", eventsDate: 'Up Coming Events 27-Jan-2025', paraText: 'The 3rd resident Judge Advocate Tactical Staff Officer Course (JATSOC).', link: './jan3-events.html' },
+  
   
 ];
 
