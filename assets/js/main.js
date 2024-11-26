@@ -941,7 +941,8 @@ function initSwiperTabs() {
       });
   }
 
-  function updateSwiperTabsPagination(swiperInstance, customDots) {
+function updateSwiperTabsPagination(swiperInstance, customDots) {
+   
     const activeIndex = swiperInstance.realIndex;
     customDots.forEach((dot, index) => {
       if (index === activeIndex) {
@@ -954,4 +955,4 @@ function initSwiperTabs() {
 
 // window.addEventListener("load", initSwiperTabs);
 initSwiperTabs()
-  
+ 
