@@ -551,27 +551,27 @@ fourthSearch.addEventListener('click', () => {
    }
 });
 
-fiveSearch.addEventListener('click', () => {
-  if (x.matches) {
-    fivesearchBar.classList.add("active");
-    nav.classList.add("move-up");
-    desktopNav.classList.add("move-down");
-    fivemobileSearch.classList.remove('hide')
-    mobileSearchContainer.classList.add('hide')
-  } else {
-    // desktopNav.classList.add('hide');
-    fiveLink.classList.remove('hide');
-    searchContainer.classList.add('hide');
-    firstLink.classList.add('hide');
-    secondLink.classList.add('hide');
-    thirdLink.classList.add('hide')
-    fourthLink.classList.add('hide');
-    sixLink.classList.add('hide');
-    sevenLink.classList.add('hide');
-    eightLink.classList.add('hide');
-    overlay.classList.add('show');
-    }
-});
+// fiveSearch.addEventListener('click', () => {
+//   if (x.matches) {
+//     fivesearchBar.classList.add("active");
+//     nav.classList.add("move-up");
+//     desktopNav.classList.add("move-down");
+//     fivemobileSearch.classList.remove('hide')
+//     mobileSearchContainer.classList.add('hide')
+//   } else {
+//     // desktopNav.classList.add('hide');
+//     fiveLink.classList.remove('hide');
+//     searchContainer.classList.add('hide');
+//     firstLink.classList.add('hide');
+//     secondLink.classList.add('hide');
+//     thirdLink.classList.add('hide')
+//     fourthLink.classList.add('hide');
+//     sixLink.classList.add('hide');
+//     sevenLink.classList.add('hide');
+//     eightLink.classList.add('hide');
+//     overlay.classList.add('show');
+//     }
+// });
 
 sixSearch.addEventListener('click', () => {
   if (x.matches) {
@@ -836,15 +836,15 @@ fourthCancelBtn.addEventListener("click", () => {
     
 });
 
-fiveCancelBtn.addEventListener("click", () => {
-    mobileSearchContainer.classList.remove('hide')
-    fivesearchBar.classList.remove("active");
-    fivemobileSearch.classList.add('hide')
-    nav.classList.remove('move-up');
-    desktopNav.classList.remove('move-down');
-    desktopNav.classList.remove('hide');
+// fiveCancelBtn.addEventListener("click", () => {
+//     mobileSearchContainer.classList.remove('hide')
+//     fivesearchBar.classList.remove("active");
+//     fivemobileSearch.classList.add('hide')
+//     nav.classList.remove('move-up');
+//     desktopNav.classList.remove('move-down');
+//     desktopNav.classList.remove('hide');
     
-});
+// });
 
 sixCancelBtn.addEventListener("click", () => {
     mobileSearchContainer.classList.remove('hide')

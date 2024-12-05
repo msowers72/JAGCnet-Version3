@@ -2602,6 +2602,16 @@ section,
   margin-top: 100px;
 }
 
+/* inmemoriam sectoin */
+section, .section.memoriam {
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.container.memo-container {
+  max-width: 760px;
+}
+
 section,
 .section.announce {
   color: #fff;
@@ -3194,8 +3204,13 @@ grid-row-gap: 0px;
   width: 150px;
 }
 
-.container h2 img.memoriam {
- width: 250px;
+section h2 img.memoriam {
+ width: 475px;
+ border-radius: 10%;
+}
+
+.container.my-memoriam {
+  text-align: center;
 }
 
 .col-lg-4 .cropped-img {
@@ -4474,6 +4489,10 @@ font-size: 2rem;
  min-height: 50vh;
 }
 
+.hero.section.the-memoriam {
+  min-height: 50vh;
+}
+
 .hero.section.my-hero p {
  color: #fff;
  z-index: 1;
@@ -4522,6 +4541,21 @@ font-size: 2rem;
     transform: translateX(-50%) translateY(18px) rotate(2deg);
 }
 
+.hero.section.the-memoriam::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 96%;
+    background: var(--background-color);
+    opacity: 0.3;
+    z-index: 0;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) translateY(18px) rotate(2deg);
+}
+
+
 .hero.section.in-memoriam::after {
     content: "";
     position: absolute;
@@ -4538,6 +4572,23 @@ font-size: 2rem;
     transform: translateX(-50%) rotate(0deg);
 }
 
+.hero.section.the-memoriam::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 95%;
+    /* background: linear-gradient(to right, color-mix(in srgb, var(--contrast-color), transparent 100%), var(--contrast-color)), url("../img/inMemoriam.png") center top no-repeat; */
+    background: linear-gradient(to right, color-mix(in srgb, var(--text-primary), transparent 50%), var(--text-primary));
+     /* background: url("../img/inMemoriam.png") center top no-repeat; */
+    background-size: cover;
+    z-index: 0;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+
 .hero.section.my-hero::after {
     content: "";
     position: absolute;
@@ -4552,6 +4603,36 @@ font-size: 2rem;
     z-index: 0;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
+}
+
+.hero.section.the-memoriam::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 95%;
+    /* background: linear-gradient(to right, color-mix(in srgb, var(--contrast-color), transparent 100%), var(--contrast-color)), url("../img/inMemoriam.png") center top no-repeat; */
+    /* background: linear-gradient(to right, color-mix(in srgb, var(--default-color), transparent 50%), var(--default-color)); */
+     background: url("../img/lucas-sankey-gdQ_az6CSPo-unsplash.jpg") center top no-repeat;
+    background-size: cover;
+    z-index: 0;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.hero.section.the-memoriam::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 130%;
+    height: 96%;
+    background: var(--background-color);
+    opacity: 0.3;
+    z-index: 0;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%) translateY(18px) rotate(2deg);
 }
 
 .hero.section.my-hero.january::before {
@@ -5116,6 +5197,19 @@ ul.judical li {
 
 .blog-posts article:hover .post-img img {
   transform: scale(1.1);
+}
+
+.blog-posts.para-memo p {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.blog-posts.para-memo p a {
+  color: #000;
+}
+
+.blog-posts.para-memo p a:hover {
+  color: green;
 }
 
 /*--------------------------------------------------------------

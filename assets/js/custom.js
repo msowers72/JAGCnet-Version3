@@ -192,5 +192,5 @@ function PaginationButton(page, items) {
  
 
 
-DisplayList(list_items, list_element, rows, current_page)
-setupPagination(list_items, pagination_element, rows);
+// DisplayList(list_items, list_element, rows, current_page)
+// setupPagination(list_items, pagination_element, rows);
