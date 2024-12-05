@@ -444,7 +444,7 @@ const activeSearchBar = document.querySelector('.search-container .search-bar.ac
 
 
 searchButton.addEventListener('click', () => {
-  desktopNav.classList.add('hide');
+  // desktopNav.classList.add('hide');
   searchContainer.classList.remove('hide');
   firstLink.classList.add('hide');
   secondLink.classList.add('hide');
