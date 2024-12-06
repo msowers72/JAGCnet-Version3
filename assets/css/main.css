@@ -4861,6 +4861,17 @@ grid-row-gap: 10px;
   }
 }
 
+p.mission-subhead {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+.service-details p.para-mission {
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: none;
+}
+
 /*--------------------------------------------------------------
 # pagination Section
 --------------------------------------------------------------*/
