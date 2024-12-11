@@ -2758,6 +2758,11 @@ section,
   position: relative;
 }
 
+/* Accordina FAQ Section */
+.accordion-button {
+    font-size: 1.6rem;
+}
+
 .section-title h2::after {
   content: "";
   width: 120px;
@@ -2791,11 +2796,25 @@ section,
   font-size: 2rem;
 }
 
+.container.new-section-design {
+  max-width: 760px;
+   
+}
+
+.team.section.procurement {
+  padding-top: 0px;
+  margin-top: -175px;
+  
+}
+
+.service-details.section.my-procurement {
+  display: flex;
+}
 
 .section-title p.leader-style {
   font-weight: normal;
   text-transform: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   margin-bottom: 15px;  
   max-width: 760px;
@@ -4494,7 +4513,7 @@ font-size: 2rem;
 }
 
 .hero.section.in-memoriam {
- min-height: 100vh;
+ min-height: 50vh;
 }
 
 .hero.section.the-memoriam {
@@ -4817,6 +4836,30 @@ font-size: 2rem;
   color: blue;
 }
 
+.service-details ul.pfa {
+  padding-left: 40px;
+}
+.service-details ul.pfa li {
+  display: block;
+    display: list-item;
+  list-style-type: disc;
+  padding-inline-start: 1ch;
+  
+}
+
+.service-details ul.pfa li i {
+  color: #000;
+  font-size: 15px;
+}
+
+
+
+
+.service-details ul.pfa li a {
+ color: blue;
+  
+}
+
 ul.judical.cp56 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -4835,6 +4878,17 @@ grid-row-gap: 10px;
   display: flex;
   align-items: center;
 }
+
+.service-details ul#mission-points.mission-points {
+ 
+  padding-left: 35px;
+  font-size: 15px;
+  background-color: lightgray;
+  font-weight: 600;
+}
+
+
+
 .service-details ul.display-block li {
   padding: 5px 0;
   display: block;
@@ -5123,6 +5177,24 @@ grid-column-end: 3;
   display: none;
 }
 
+/*--------------------------------------------------------------
+# Procurement Fraud Division grid
+--------------------------------------------------------------*/
+.fraud-table {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(18, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
+.fraud-table p.leader-style {
+  border: 1px solid black;
+  margin-bottom: 0px;
+  
+}
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
@@ -5182,7 +5254,7 @@ grid-column-end: 3;
    
 }
 .service-details p.new-title.sub-page {
-    font-size: 22px;
+    font-size: 16px;
    margin-top: 45px;
 }
 
@@ -5747,6 +5819,14 @@ height: 100%;
 }
 
 @media (max-width: 575px) {
+.accordion .accordion-item h2 button {
+  line-height: 1.5;
+}
+ 
+
+  .service-details.section.my-procurement {
+  display: block;
+}
   .hero.section.legal-hero {
     min-height: 20vh;
 }
