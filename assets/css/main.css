@@ -5752,6 +5752,72 @@ grid-column-gap: 35px;
 }
 
 /*--------------------------------------------------------------
+# Grid for Asian Claims Offices
+--------------------------------------------------------------*/
+section.service-details .claims-grid {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
+
+
+.container.nov-events.asian-container {
+    max-width: 1115px;
+}
+
+/*--------------------------------------------------------------
+# Grid for conus Claims Offices
+--------------------------------------------------------------*/
+section.service-details .conus-grid {
+  display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: px;
+grid-row-gap: 0px;
+
+
+}
+
+
+.conus-grid > p  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border-bottom: 1px solid black;
+}
+
+
+
+.container.nov-events.conus-container {
+    max-width: 1500px;
+}
+
+/*--------------------------------------------------------------
+# custom ordered list
+--------------------------------------------------------------*/
+section ol.custom-order {
+  display: list-item;
+  list-style-type: upper-roman;
+ 
+}
+
+section ol.custom-order li {
+  font-size: 1.8rem;
+}
+
+section ol.custom-order p {
+  margin-left: 20px;
+ 
+}
+section ol.custom-order p a {
+  color: blue;
+ 
+}
+
+/*--------------------------------------------------------------
 # Nov-Events Css code
 --------------------------------------------------------------*/
 
@@ -5819,6 +5885,14 @@ height: 100%;
 }
 
 @media (max-width: 575px) {
+  section.service-details .conus-grid {
+  display: block;
+
+}
+  section.service-details .claims-grid {
+  display: block;
+
+}
 .accordion .accordion-item h2 button {
   line-height: 1.5;
 }
