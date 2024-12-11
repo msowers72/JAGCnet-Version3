@@ -1,0 +1,72 @@
+files in the root dir:
+trialdefense nav updated
+portfolio-details template only
+office.html nav updated
+nov2-events nav updated
+nov-events nav updated
+libray.html template only
+legalcareer.html updated
+legal.html template only
+help.html updated
+leader2.html updated
+leader.html updated
+jud.html updated
+Jan3-events updated
+jan2-events updated
+jan-events.html updated
+foia.html template
+court.html template
+claims.html updated
+career.html template
+appeals.html updated
+access.html template 
+
+public folder: starts here
+memo-eight updated
+memo-eightteen updated
+memo-eleven updated
+memo-fifteen updated
+memo-five updated
+memo-four updated
+memo-fourteen updated
+memo-nine updated
+memo-nineteen updated
+memo-one updated
+memo-seven updated
+memo-seventeen updated
+memo-six updated
+memo-sixteen updated
+memo-ten updated
+memo-thirteen updated
+memo-three updated
+memopstweleve updated
+memo-twenty updated
+memo-twentyone updated
+memo-two updated
+memoriam updated
+mission-vision updated
+reserve-page updated
+seventeen-ops updated
+strategy updated
+twentysec-ops updated
+
+legal-services folder
+admin.html updated
+faq.html updated
+legal-page updated
+our-program updated
+pfa.html updated
+pro-mission updated
+procurement updated
+report.html updated
+tortClaim updated
+victims.html updated
+
+claims-service
+asian.html updated
+conus.html updated
+europe.html updated
+foreign.html updated
+missionstate updated
+usarcs.html updated
+
