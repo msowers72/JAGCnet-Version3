@@ -2628,7 +2628,8 @@ section,
   margin-top: 0px;
 }
 .sub-head-intro {
-  background: rgba(0, 0, 0, 0.9);
+background-color: 
+color-mix(in srgb, var(--footer-background-color) 90%, white 10%);
   padding: 25px 0;
 }
 
