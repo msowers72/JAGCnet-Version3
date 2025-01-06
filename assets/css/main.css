@@ -5844,7 +5844,16 @@ section ol.custom-order p a {
 }
 }
 
+@media(max-width: 1280px) {
+  .col-lg-4  .cropped-img {
+    height: 244px;
+  }
+}
+
 @media(max-width: 1024px) {
+   .col-lg-4  .cropped-img {
+    height: 204px;
+  }
   section h2 img.memoriam {
     width: 320px;
     border-radius: 10%;
@@ -5861,6 +5870,10 @@ section ol.custom-order p a {
 }
 
 @media (max-width: 768px) {
+    .col-lg-4  .cropped-img {
+    max-width: 100%;
+    height: auto;
+  }
   .top_flex {
     display: block;
   }
