@@ -573,27 +573,27 @@ fourthSearch.addEventListener('click', () => {
 //     }
 // });
 
-sixSearch.addEventListener('click', () => {
-  if (x.matches) {
-    sixsearchBar.classList.add("active");
-    nav.classList.add("move-up");
-    desktopNav.classList.add("move-down");
-    sixmobileSearch.classList.remove('hide')
-    mobileSearchContainer.classList.add('hide')
-  } else {
-    //  desktopNav.classList.add('hide');
-    sixLink.classList.remove('hide');
-    searchContainer.classList.add('hide');
-    firstLink.classList.add('hide');
-    secondLink.classList.add('hide');
-    thirdLink.classList.add('hide')
-    fourthLink.classList.add('hide');
-    fiveLink.classList.add('hide');
-    sevenLink.classList.add('hide');
-    eightLink.classList.add('hide');
-    overlay.classList.add('show');
-   }
-});
+// sixSearch.addEventListener('click', () => {
+//   if (x.matches) {
+//     sixsearchBar.classList.add("active");
+//     nav.classList.add("move-up");
+//     desktopNav.classList.add("move-down");
+//     sixmobileSearch.classList.remove('hide')
+//     mobileSearchContainer.classList.add('hide')
+//   } else {
+//     //  desktopNav.classList.add('hide');
+//     sixLink.classList.remove('hide');
+//     searchContainer.classList.add('hide');
+//     firstLink.classList.add('hide');
+//     secondLink.classList.add('hide');
+//     thirdLink.classList.add('hide')
+//     fourthLink.classList.add('hide');
+//     fiveLink.classList.add('hide');
+//     sevenLink.classList.add('hide');
+//     eightLink.classList.add('hide');
+//     overlay.classList.add('show');
+//    }
+// });
 
 sevenSearch.addEventListener('click', () => {
   if (x.matches) {
