@@ -3268,6 +3268,7 @@ section h2 img.memoriam {
 }
 }
 
+
 @media(max-width: 1024px) {
   .col-lg-4 .cropped-img2 {
     height: 232px;
@@ -5891,10 +5892,16 @@ section ol.custom-order p a {
 
 @media(max-width: 1280px) {
    .hero {
-    min-height: 60vh;
+    min-height: 40vh;
   }
   .col-lg-4  .cropped-img {
     height: 244px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .hero {
+    min-height: 52vh;
   }
 }
 
