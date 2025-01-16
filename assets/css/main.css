@@ -2631,6 +2631,7 @@ section,
 background-color: 
 color-mix(in srgb, var(--footer-background-color) 90%, white 10%);
   padding: 25px 0;
+  
 }
 
 
@@ -2663,7 +2664,7 @@ background-color: #201E43;
 
 .sub-head-bottom p {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 3%;
   text-align: center;
   font-weight: normal;
   margin-bottom: 15px;
@@ -5853,7 +5854,7 @@ section ol.custom-order p a {
 
 @media(max-width: 1920px) {
   .hero {
-    min-height: 62vh;
+    min-height: 68vh;
   }
 }
 
@@ -5892,23 +5893,50 @@ section ol.custom-order p a {
 
 @media(max-width: 1280px) {
    .hero {
-    min-height: 40vh;
+    min-height: 50vh;
   }
   .col-lg-4  .cropped-img {
     height: 244px;
   }
+.sub-head-intro h2 {
+ 
+  font-size: 3.5rem;
+ 
+}
+
+.sub-head-intro p {
+ 
+  font-size: 2.5rem;
+  
+}
+
+.sub-head-bottom h2 {
+  
+  font-size: 3.5rem;
+  
+}
+
+.sub-head-bottom p {
+ 
+  font-size: 2.5rem;
+  
+}
+.sub-head-intro {
+  line-height: 1.2;
+}
+
 }
 
 @media(max-width: 1200px) {
   .hero {
-    min-height: 52vh;
+    min-height: 58vh;
   }
 }
 
 @media(max-width: 1024px) {
 
    .hero {
-    min-height: 45vh;
+    min-height: 50vh;
   }
    .col-lg-4  .cropped-img {
     height: 204px;
@@ -5960,6 +5988,15 @@ height: 100%;
 }
 
 @media (max-width: 575px) {
+
+  .sub-head-intro h2  {
+    font-size: 2.5rem;
+  }
+
+  .sub-head-bottom h2 {
+    font-size: 2.5rem;
+}
+
   .subtitle-h3 {
     font-size: 2rem;
     font-weight: bold;
