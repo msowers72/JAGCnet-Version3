@@ -438,24 +438,29 @@ const eightLink = document.querySelector('#eight-link');
 const eightLinkClass = document.querySelector('.eight-link')
 const eightCloseButton = document.querySelector('.search-container .eightLink-close ');
 
+const nineSearch = document.querySelector('nav .desktop-nav .nine-search');
+const nineLink = document.querySelector('#nine-link');
+const nineLinkClass = document.querySelector('.nine-link')
+const nineCloseButton = document.querySelector('.search-container .nineLink-close ');
+
 const activeSearchBar = document.querySelector('.search-container .search-bar.active')
 
 
 
 
-searchButton.addEventListener('click', () => {
-  // desktopNav.classList.add('hide');
-  searchContainer.classList.remove('hide');
-  firstLink.classList.add('hide');
-  secondLink.classList.add('hide');
-  thirdLink.classList.add('hide')
-  fourthLink.classList.add('hide');
-  fiveLink.classList.add('hide');
-  sixLink.classList.add('hide');
-  sevenLink.classList.add('hide');
-  eightLink.classList.add('hide');
-  overlay.classList.add('show');
-});
+// searchButton.addEventListener('click', () => {
+//   // desktopNav.classList.add('hide');
+//   searchContainer.classList.remove('hide');
+//   firstLink.classList.add('hide');
+//   secondLink.classList.add('hide');
+//   thirdLink.classList.add('hide')
+//   fourthLink.classList.add('hide');
+//   fiveLink.classList.add('hide');
+//   sixLink.classList.add('hide');
+//   sevenLink.classList.add('hide');
+//   eightLink.classList.add('hide');
+//   overlay.classList.add('show');
+// });
 
 
 tabSearch.addEventListener('click', () => {
@@ -639,6 +644,28 @@ eightSearch.addEventListener('click', () => {
    }
 });
 
+nineSearch.addEventListener('click', () => {
+  if (x.matches) {
+    ninesearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    ninemobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+  } else {
+    // desktopNav.classList.add('hide');
+    nineLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fourthLink.classList.add('hide');
+    fiveLink.classList.add('hide');
+    sixLink.classList.add('hide');
+     sevenLink.classList.add('hide');
+    overlay.classList.add('show');
+   }
+});
+
 
 
 closeButton.addEventListener('click', () => {
@@ -694,6 +721,12 @@ eightCloseButton.addEventListener('click', () => {
     overlay.classList.remove('show');
 });
 
+nineCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    nineLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
 
 
 overlay.addEventListener('click', () => {
@@ -742,6 +775,7 @@ const fivesearchBar = document.querySelector('.fivemobile-search-container .sear
 const sixsearchBar = document.querySelector('.sixmobile-search-container .search-bar')
 const sevensearchBar = document.querySelector('.sevenmobile-search-container .search-bar')
 const eightsearchBar = document.querySelector('.eightmobile-search-container .search-bar')
+const ninesearchBar = document.querySelector('.ninemobile-search-container .search-bar')
 
 
 const nav = document.querySelector(".nav-container nav");
@@ -756,6 +790,7 @@ const fivesearchInput = document.querySelector('.fivemobile-search-container inp
 const sixsearchInput = document.querySelector('.sixmobile-search-container input')
 const sevensearchInput = document.querySelector('.sevenmobile-search-container input')
 const eightsearchInput = document.querySelector('.eightmobile-search-container input')
+const ninesearchInput = document.querySelector('.ninemobile-search-container input')
 
 
 const cancelBtn = document.querySelector(".mobile-search-container .cancel-btn");
@@ -768,6 +803,7 @@ const fiveCancelBtn = document.querySelector(".fivemobile-search-container .canc
 const sixCancelBtn = document.querySelector(".sixmobile-search-container .cancel-btn");
 const sevenCancelBtn = document.querySelector(".sevenmobile-search-container .cancel-btn");
 const eightCancelBtn = document.querySelector(".eightmobile-search-container .cancel-btn");
+const nineCancelBtn = document.querySelector(".ninemobile-search-container .cancel-btn");
 
 
 
@@ -779,6 +815,7 @@ const fivemobileSearch = document.querySelector('.fivemobile-search-container')
 const sixmobileSearch = document.querySelector('.sixmobile-search-container')
 const sevenmobileSearch = document.querySelector('.sevenmobile-search-container')
 const eightmobileSearch = document.querySelector('.eightmobile-search-container')
+const ninemobileSearch = document.querySelector('.ninemobile-search-container')
 
 
 searchInput.addEventListener("click", () => {
@@ -870,6 +907,16 @@ eightCancelBtn.addEventListener("click", () => {
     mobileSearchContainer.classList.remove('hide')
     eightsearchBar.classList.remove("active");
     eightmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+nineCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    ninesearchBar.classList.remove("active");
+    ninemobileSearch.classList.add('hide')
     nav.classList.remove('move-up');
     desktopNav.classList.remove('move-down');
     desktopNav.classList.remove('hide');

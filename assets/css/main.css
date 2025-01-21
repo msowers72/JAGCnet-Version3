@@ -343,6 +343,16 @@ nav .desktop-nav li span.logo-span {
     background-repeat: no-repeat;
 }
 
+.nineLink-close {
+    background: url(../images/close-icon.svg);
+    display: block;
+    background-position: center;
+    height: 44px;
+    background-size: 17px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
 /* Search Container */
 .flex-links {
     display: grid;
@@ -465,6 +475,15 @@ nav .desktop-nav li span.logo-span {
     transition: all 400ms;
 }
 
+.search-container .nineLink-close {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
 .search-container .link-close:Hover {
     opacity: 0.7;
 }
@@ -487,6 +506,10 @@ nav .desktop-nav li span.logo-span {
     opacity: 0.7;
 }
 .search-container .eightLink-close:Hover {
+    opacity: 0.7;
+}
+
+.search-container .nineLink-close:Hover {
     opacity: 0.7;
 }
 
@@ -705,6 +728,9 @@ desktop-nav li:nth-of-type(1),
     opacity: 0;
 }
 
+.search-container.hide .nineLink-close {
+    opacity: 0;
+}
 .search-container .link-close {
     opacity: 0.5;
     transition: all 400ms ease;
@@ -747,6 +773,12 @@ desktop-nav li:nth-of-type(1),
 }
 
 .search-container .eightLink-close {
+    opacity: 0.5;
+    transition: all 400ms ease;
+    transition-delay: 400ms;
+}
+
+.search-container .nineLink-close {
     opacity: 0.5;
     transition: all 400ms ease;
     transition-delay: 400ms;
@@ -810,7 +842,9 @@ desktop-nav li:nth-of-type(1),
 .fivemobile-search-container,
 .sixmobile-search-container,
 .sevenmobile-search-container,
-.eightmobile-search-container
+.eightmobile-search-container,
+.ninemobile-search-container
+
  {
     display: none;
 }
@@ -862,6 +896,9 @@ desktop-nav li:nth-of-type(1),
 }
 
 @media (max-width: 768px) {
+ 
+
+
   .nav-container {
     background: rgba(0, 0, 0, 1);
     /* height: 44px; */
@@ -889,7 +926,9 @@ desktop-nav li:nth-of-type(1),
         
     } */
 
-    
+     nav .desktop-nav li span.logo-span {
+    display: none;
+   }
     .new-mobile-logo {
       position: relative;
       margin-top: 0px;
@@ -938,7 +977,7 @@ desktop-nav li:nth-of-type(1),
         display: inline-block;
         border-bottom: 1px solid #616161;
         width: 100%;
-        font-size: 17px;
+        font-size: 25px;
         transform: translateY(-80px);
         opacity: 0;
         transition: all 700ms ease;
@@ -949,38 +988,7 @@ desktop-nav li:nth-of-type(1),
         opacity: 1;
     }
 
-    @media (max-width: 500px) {
-     nav .desktop-nav li span.logo-span {
-    display: none;
-   }
-    .mobile-footer-link.mobile-hide {
-       display: none;
-    }
-      .nav-container {
-    height: 110px;
-    }
-      .special-header {
-  
-    height: 45px;
-    }
-    .nav-container nav {
-    
-    height: 60%;
-    
-}
-
-    .search-container .quick-links ul li a {
-    display: inline-block;
-    width: 100%;
-    padding: 8px 50px;
-    font-size: 7.5px;
-    color: #1d1d1f;
-    text-decoration: none;
-    font-weight: 800;
-    }
-  
-
-    }
+   
 
     /* Mobile Nav */
     nav .mobile-nav {
@@ -1092,6 +1100,9 @@ desktop-nav li:nth-of-type(1),
         display: none;
     }
 
+    .ninemobile-search-container input {
+        display: none;
+    }
 
     .mobile-search-container {
         position: relative;
@@ -1210,6 +1221,19 @@ desktop-nav li:nth-of-type(1),
         transition: all 600ms ease;
     }
 
+    .ninemobile-search-container {
+        position: relative;
+        padding: 0 16px;
+        margin-top: -30px;
+        border-bottom: 1px solid #616161;
+        display: flex;
+        padding-bottom: 16px;
+        align-items: center;
+        transform: rotateX(90deg);
+        opacity: 0;
+        transition: all 600ms ease;
+    }
+
     .nav-container.active .mobile-search-container {
         transform: rotateX(0deg);
         margin-top: -10px;
@@ -1256,6 +1280,11 @@ desktop-nav li:nth-of-type(1),
     }
 
     .nav-container.active .eightmobile-search-container.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+     .nav-container.active .ninemobile-search-container.hide {
         opacity: 0;
         pointer-events: none;
     }
@@ -1308,6 +1337,12 @@ desktop-nav li:nth-of-type(1),
         opacity: 1;
     }
 
+    .nav-container.active .ninemobile-search-container {
+        transform: rotateX(0deg);
+        margin-top: -52px;
+        opacity: 1;
+    }
+
     .mobile-search-container .link-search {
         position: absolute;
         left: 24px;
@@ -1344,6 +1379,10 @@ desktop-nav li:nth-of-type(1),
     }
 
       .eightmobile-search-container .link-search {
+        display: none;
+    }
+
+    .ninemobile-search-container .link-search {
         display: none;
     }
 
@@ -1469,6 +1508,19 @@ desktop-nav li:nth-of-type(1),
         transition: all 400ms ease;
     }
 
+    .ninemobile-search-container .cancel-btn
+     {
+        color: #2997ff;
+        font-size: 17px;
+        /* padding: 0 16px; */
+        /* background: red; */
+        font-weight: 400;
+        cursor: pointer;
+        width: 0px;
+        overflow: hidden;
+        transition: all 400ms ease;
+    }
+
     .mobile-search-container .search-bar.active + .cancel-btn {
         padding: 0 16px;
         width: 74px;
@@ -1514,6 +1566,11 @@ desktop-nav li:nth-of-type(1),
         width: 74px;
     }
 
+    .ninemobile-search-container .search-bar.active + .cancel-btn {
+        padding: 0 16px;
+        width: 74px;
+    }
+
     .mobile-search-container .search-bar {
         flex: 1;
     }
@@ -1547,6 +1604,10 @@ desktop-nav li:nth-of-type(1),
     }
 
     .eightmobile-search-container .search-bar {
+        flex: 1;
+    }
+
+    .ninemobile-search-container .search-bar {
         flex: 1;
     }
     /* deskto nav move down */
@@ -1624,6 +1685,14 @@ desktop-nav li:nth-of-type(1),
     }
     .eightmobile-search-container .search-bar.active ~ .quick-links {
         top:  275px;
+        opacity: 1;
+        pointer-events: auto;
+        transition-delay: 40ms;
+        
+    }
+
+     .ninemobile-search-container .search-bar.active ~ .quick-links {
+        top:  290px;
         opacity: 1;
         pointer-events: auto;
         transition-delay: 40ms;
@@ -1738,6 +1807,18 @@ desktop-nav li:nth-of-type(1),
        transition: all 400ms ease;
     }
 
+     .ninemobile-search-container  .quick-links {
+       position: absolute;
+       /* top: 80px; */
+       left: 0;
+       right: 0;
+       padding: 0 32px;
+       opacity: 0;
+       pointer-events: none;
+       top: 10px;
+       transition: all 400ms ease;
+    }
+
     .mobile-search-container .quick-links ul {
         list-style: none;
     }
@@ -1771,6 +1852,10 @@ desktop-nav li:nth-of-type(1),
     }
 
 .eightmobile-search-container .quick-links ul {
+        list-style: none;
+    }
+
+    .ninemobile-search-container .quick-links ul {
         list-style: none;
     }
 
@@ -1837,6 +1922,13 @@ desktop-nav li:nth-of-type(1),
         font-weight: 400;
     }
 
+    .ninemobile-search-container .quick-links  h2 {
+        color: #86868b;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
     .mobile-search-container .quick-links ul li a {
        padding: 16px 0;
        display: inline-block;
@@ -1853,7 +1945,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1864,7 +1956,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1875,7 +1967,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1886,7 +1978,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1897,7 +1989,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1908,7 +2000,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1919,7 +2011,7 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1930,7 +2022,18 @@ desktop-nav li:nth-of-type(1),
        display: inline-block;
        text-decoration: none;
        color: #fff;
-        font-size: 14px;
+        font-size: 25px;
+        font-weight: 400;
+        border-bottom: 1px solid #616161;
+        width: 100%
+    }
+
+    .ninemobile-search-container .quick-links ul li a {
+       padding: 16px 0;
+       display: inline-block;
+       text-decoration: none;
+       color: #fff;
+        font-size: 25px;
         font-weight: 400;
         border-bottom: 1px solid #616161;
         width: 100%
@@ -1970,6 +2073,10 @@ desktop-nav li:nth-of-type(1),
      .eightmobile-search-container .quick-links ul li a:hover {
        color: #2997ff 
     }
+
+     .ninemobile-search-container .quick-links ul li a:hover {
+       color: #2997ff 
+    }
     
     /* .search-container.first-link {
       display: none;
@@ -1977,6 +2084,78 @@ desktop-nav li:nth-of-type(1),
     
   
 }
+
+ @media (max-width: 500px) {
+
+  .nav-container .desktop-nav li a {
+        font-size: 17px;
+    }
+     .firstmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .secondmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .thirdmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .fourthmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .fivemobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .sixmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .sevenmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+     .eightmobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+
+    .ninemobile-search-container .quick-links ul li a {
+        font-size: 14px;
+    }
+     nav .desktop-nav li span.logo-span {
+    display: none;
+   }
+    .mobile-footer-link.mobile-hide {
+       display: none;
+    }
+      .nav-container {
+    height: 110px;
+    }
+      .special-header {
+  
+    height: 45px;
+    }
+    .nav-container nav {
+    
+    height: 60%;
+    
+}
+
+    .search-container .quick-links ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 50px;
+    font-size: 7.5px;
+    color: #1d1d1f;
+    text-decoration: none;
+    font-weight: 800;
+    }
+  
+
+    }
 
 /* Nav Animation */
 .nav-container nav {
@@ -2664,7 +2843,7 @@ background-color: #201E43;
 
 .sub-head-bottom p {
   color: #fff;
-  font-size: 3%;
+  font-size: 3.5rem;
   text-align: center;
   font-weight: normal;
   margin-bottom: 15px;
@@ -5958,7 +6137,9 @@ section ol.custom-order p a {
 
 @media (max-width: 768px) {
     
-   
+   .hero {
+    min-height: 71vh;
+  }
     .col-lg-4  .cropped-img {
     max-width: 100%;
     height: auto;
@@ -5988,6 +6169,9 @@ height: 100%;
 }
 
 @media (max-width: 575px) {
+  .hero {
+    min-height: 50vh;
+  }
 
   .sub-head-intro h2  {
     font-size: 2.5rem;
